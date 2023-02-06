@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+nav{
+    background-color: #0084fd;
+    height: 80px;
+}
+
+nav .nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    height: 100%;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+nav .nav-container .nav-elements {
+    display: flex;
+    display: none;
+
+}
+
+nav .nav-container .nav-elements ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    color: #ffffff;
+}
+
+nav .nav-container .nav-elements button {
+    margin-left: 20px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ffffff;
+}
+
+nav .nav-container .nav-mobile-tablet {
+    font-size: 1.5em;
+    color: white;
+}
