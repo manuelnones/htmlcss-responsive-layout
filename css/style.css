@@ -8,8 +8,6 @@ main .col{
     max-width: 90%;
     margin: auto;
     margin-top: 40px;
-    border-radius: 30px;
-    background-color: #b5ddff;
 }
 
 /* nav-bar */
@@ -32,7 +30,6 @@ nav .nav-container{
 nav .nav-container .nav-elements {
     display: flex;
     display: none;
-
 }
 
 nav .nav-container .nav-elements ul {
@@ -59,6 +56,10 @@ nav .nav-container .nav-mobile-tablet {
 
 /* main */
 /* section-1 */
+main .section-1 .col-1{
+    border-radius: 30px;
+    background-color: #b5ddff;
+}
 
 main .section-1 .col .title-sect-1{
     padding-top: 30px;
@@ -121,53 +122,98 @@ main .section-1 .col .text-col-big .fa-solid{
 
 /* section-2 */
 main .section-2{
+    padding-bottom: 70px;
     background-color: #9792e4;
 }
 
-main .section-2 .col-2{
-    max-width: 90%;
-    margin: auto;
-    margin-top: 40px;
-}
-
-main .section-2 .col-2 .img1-sect-2{
+main .section-2 .col .img1-sect-2{
     width: 100%;
     padding-top: 50px;
     padding-bottom: 70px;
 }
 
-main .section-2 .col-2 .img1-sect-2 img{
+main .section-2 .col .img1-sect-2 img{
     width: 100%;
 }
 
-main .section-2 .col-2-white{
-    max-width: 90%;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 30px;
+main .section-2 .col .text-sect-2 .title1-sect-2{
+    padding-bottom: 40px;
+    font-size: 1.8em;
+    line-height: 1.5em;
+    color: #ffffff;
+}
+
+main .section-2 .col .text-sect-2 .text-inner{
+    margin-bottom: 40px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #ffffff;
+}
+
+main .section-2 .col-white{
     border-radius: 30px;
     text-align: center;
     background-color: #ffffff;
 }
 
-main .section-2 .col-2-white .img2-sect-2{
+main .section-2 .col-white .img2-sect-2{
     width: 90%;
     margin: auto;
 }
 
-main .section-2 .col-2-white .img2-sect-2 img{
+main .section-2 .col-white .img2-sect-2 img{
     width: 100%;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
-main .section-2 .col-2-white button{
-    padding: 8px 15px;
+main .section-2 .col-white button{
+    padding: 15px 21px;
     border-radius: 50%;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     border: none;
     font-size: 1.5em;
     background-color: #9792e4;
 }
+
+main .section-2 .col-white .title2-sect-2{
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+main .section-2 .col-white .text-inner{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+/* /section-2 */
+
+
+/* section-3 */
+main .section-3 .col-3{
+    text-align: center;
+    margin-top: 80px;
+}
+
+main .section-3 .col-3 .testim-{
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+main .section-3 .col-3 .title-3{
+    font-size: 1.5em;
+    color: #9792e4;
+}
+
+main .section-3 .col-3 .text-inner{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+/* /section-3 */
+
 
 /* /main */
