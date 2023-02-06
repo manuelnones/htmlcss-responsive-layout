@@ -5,6 +5,7 @@
 }
 
 
+/* nav-bar */
 nav{
     background-color: #0084fd;
     height: 80px;
@@ -46,3 +47,81 @@ nav .nav-container .nav-mobile-tablet {
     font-size: 1.5em;
     color: white;
 }
+/* /nav-bar */
+
+
+/* main */
+/* section-1 */
+main .section-1 .col{
+    max-width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 30px;
+    background-color: #b5ddff;
+}
+
+main .section-1 .col h2{
+    padding-top: 30px;
+    font-size: 1.7em;
+    color: #0084fd;
+}
+
+main .section-1 .col p{
+    padding-top: 40px;
+    margin-bottom: 40px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+main .section-1 .col .text-col p{
+    padding-top: 40px;
+    margin-bottom: 40px;
+    padding-right: 30px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+main .section-1 .col .text-col{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+main .section-1 .col .text-col-big{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main .section-1 .col .text-col .blue-btn{
+    max-width: 200px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #0084fd;
+}
+
+main .section-1 .col .img-col{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    margin-top: 40px; 
+}
+
+main .section-1 .col .img-col img{
+    height: 100%;
+}
+
+main .section-1 .col .text-col-big .fa-solid{
+    margin: auto;
+    margin-top: 30px;
+    font-size: 5em;
+    color: #0084fd;
+/* /section-1 */
+
+
+/* section-2 */
+
+/* /main */
